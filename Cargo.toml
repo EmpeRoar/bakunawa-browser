@@ -1,0 +1,9 @@
+[package]
+name = "bakunawa"
+version = "0.1.0"
+edition = "2021"
+description = "A web browser built from scratch in Rust, one phase at a time."
+
+# Phase 1 uses ONLY the Rust standard library — no external crates.
+# Dependencies get added in later phases (see docs/ROADMAP.md).
+[dependencies]
